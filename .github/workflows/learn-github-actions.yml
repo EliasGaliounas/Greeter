@@ -19,5 +19,5 @@ jobs:
           pip install pytest colorama
       - name: Test with pytest
         run: |
-          pytest
+          python -m pytest
 # https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python

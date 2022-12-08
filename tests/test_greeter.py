@@ -1,4 +1,4 @@
-from greetings.greeter import greet
+from greeter import greet
 
 def test_greeter():
     inputs = [
@@ -13,4 +13,3 @@ def test_greeter():
     ]
     for inp, out in zip(inputs, outputs):
         assert greet(**inp) == out
-

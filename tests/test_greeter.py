@@ -1,4 +1,4 @@
-from greeter import greet
+from greetings.greeter import greet
 
 def test_greeter():
     inputs = [

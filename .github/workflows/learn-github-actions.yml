@@ -31,6 +31,6 @@ jobs:
           files: ./coverage.xml
           flags: unittests
           name: codecov-umbrella
-          path_to_write_report: ./codecov_report.txt
+          path_to_write_report: codecov_report.txt
           verbose: true
 # https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python

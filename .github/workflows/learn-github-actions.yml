@@ -27,9 +27,5 @@ jobs:
         #   filename: coverage.xml
       - uses: codecov/codecov-action@v3
         with:
-          files: ./coverage.xml # optional
-          #flags: unittests # optional
-          name: codecov-umbrella # optional
-          fail_ci_if_error: true # optional (default = false)
-          verbose: true # optional (default = false)
+          files: coverage.xml # optional
 # https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
